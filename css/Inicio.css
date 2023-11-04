@@ -1,0 +1,153 @@
+.inicio{
+    background-color: #E3CFCC;
+    height: auto;
+    font-family: 'Roboto';
+    display: flex;
+    gap: 5px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 80px 0;
+}
+
+.seccion-inicio{
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: justify;
+}
+
+.foto-inicio{
+    justify-content: center;
+    width: 210px;
+    height: 250px;
+    display: block;
+    max-width: 250px;
+    margin: 0 auto;
+    margin-top: -10px;
+    margin-bottom: 45px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: top;
+
+    border-radius: 100%;
+}
+
+.text h2{
+    color: #63413C;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.text h1{
+    color: #63413C;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.text p{
+    color: #635B5A;
+    font-size: 14px;
+    font-family: 'Roboto';
+    line-height: 1.5;
+    margin-bottom: 25px;
+    display: grid;
+    gap: 1.5rem;
+}
+
+.negritas{
+    font-weight: bold;
+}
+
+.redes a{
+    font-size: 35px;
+    color: #63413C;
+    padding: 12px;
+    justify-content: space-evenly;
+}
+
+@media (min-width:768px){  
+    .seccion-inicio{
+        margin-left: 55px;
+        margin-right: 50px;
+    }
+
+    .foto-inicio{
+        width: 260px;
+        height: 270px;
+        display: flex;
+        float: right;
+        margin-top: 50px;
+    }
+    
+    .text h2{
+        font-size: 22px;
+        text-align: left;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    
+    .text h1{
+        font-size: 33px;
+        text-align: left;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .text p{
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+    
+    .redes a{
+        font-size: 42px;
+        padding: 20px 20px;
+        justify-content: center;
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+}
+
+@media (min-width:1024px){
+    .inicio{
+        height: auto;
+        display: flex;
+    }
+
+    .seccion-inicio{
+        text-align: justify;
+        margin: auto;
+    }
+
+    .foto-inicio{
+        justify-content: center;
+        width: 311px;
+        height: 315px;
+        margin-top: 30px;
+        margin-right: 70px;
+    }
+    
+    .text h2{
+        font-size: 25px;
+        margin-top: 40px;
+        margin-left: 70px;
+    }
+    
+    .text h1{
+        font-size: 34px;
+        margin-top: 10px;
+        margin-left: 70px;
+    }
+    
+    .text p{
+        font-size: 18px;
+        margin-bottom: 20px;
+        margin-left: 70px;
+    }
+    
+    .redes a{
+        font-size: 45px;
+        padding: auto;
+        margin-left: 70px;
+    }
+}

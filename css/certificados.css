@@ -1,0 +1,129 @@
+.certificados{
+    background-color: #FCECEA;
+    height: auto;
+    padding: 2px 10px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 80px 0;
+}
+
+.certificados h1{
+    font-size: 28px;
+    font-family: 'Roboto';
+    color: #63413C;
+    text-align: center;
+    margin-top: -70px;
+    margin-bottom: 20px;
+}
+
+.contenedor-certificados{
+    width: 300px;
+    height: 517px;
+    justify-content: center;
+    margin: auto;
+}
+
+.contenedor-certificados p{
+    color: #635B5A;
+    font-size: 14px;
+    margin-left: 65px;
+    margin-top: -46px;
+    text-align: justify;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.contenedor-certificados a{
+    text-align: center;
+    text-decoration: none;
+}
+
+.certificados .contenedor-certificados img{
+    width: 55px;
+    height: 55px;
+    margin-top: 40px;
+    display: block;
+}
+
+.contenedor-certificados .certificado{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+@media (min-width:768px){
+    .certificados{
+        padding: 10px 15px;
+    }
+    
+    .certificados h1{
+        font-size: 32px;
+        margin-top: 10px;
+    }
+    
+    .certificados .contenedor-certificados{
+        width: 400px;
+        height: auto;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+
+    .certificados .contenedor-certificados p{
+        font-size: 16px;
+        margin-left: 75px;
+        text-align: left;
+        flex-wrap: wrap;
+    }
+
+    .certificados .contenedor-certificados img{
+        margin-top: 40px;
+        width: 65px;
+        height: 65px;
+    }
+    
+    .certificados .contenedor-certificados .certificado{
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+}
+
+@media (min-width:1024px){
+    .certificados{
+        padding: 10px 15px;
+    }
+    
+    .certificados h1{
+        font-size: 34px;
+        margin-top: -10px;
+        margin-bottom: 50px;
+    }
+    
+    .contenedor-certificados{
+        width: 758px;
+        height: auto;
+        justify-content: center;
+        margin: auto;
+        text-align: justify;
+    }
+
+    .certificados .contenedor-certificados p{
+        font-size: 18px;
+        margin-left: 75px;
+        text-align: left;
+        flex-wrap: wrap;
+    }
+
+    .certificados .contenedor-certificados img{
+        margin-top: 40px;
+        width: 65px;
+        height: 65px;
+    }
+    
+    .certificados .contenedor-certificados .certificado{
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+}

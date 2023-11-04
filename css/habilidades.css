@@ -1,0 +1,126 @@
+.habilidades{
+    background-color: #E3CFCC;
+    height: auto;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 80px 0;
+}
+
+.habilidades .contenido-habilidades h1{
+    font-size: 28px;
+    font-family: 'Roboto';
+    color: #63413C;
+    text-align: center;
+    justify-content: center; 
+    margin-top: -30px;  
+}
+
+.habilidades .contenido-habilidades .Habilidades{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    box-sizing: border-box;
+    justify-content: center;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.habilidades .contenido-habilidades .Habilidades .card{
+    width: 160px;
+    height: 200px;
+    background-color: #B0A19E;
+    border-radius: 15px;
+    box-shadow: 0 1px 10px rgba( 0, 0, 0, 0.2);
+    display: flex;
+    margin: 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.habilidades .contenido-habilidades .Habilidades .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2px);
+    background-color: #E8978B;
+    font-weight: bold;
+    box-shadow: 5px 5px 10px rgba( 0, 0, 0, 0.5);
+}
+
+.habilidades .contenido-habilidades .Habilidades .card i{
+    font-size: 75px;
+    margin-bottom: 10px;
+    color: #66443E;
+    justify-content: center;
+}
+
+.habilidades .contenido-habilidades span{
+    color: #FCECEA;
+    font-size: 22px;
+    padding: 5px 0;
+}
+
+@media (min-width:768px){
+    .habilidades .contenido-habilidades h1{
+        font-size: 32px;
+        margin-top: -30px;  
+        margin-bottom: 70px;
+    }
+    
+    .habilidades .contenido-habilidades .Habilidades{
+        margin-left: 70px;
+        margin-right: 70px;
+        margin-top: 30px;
+        margin-bottom: -10;
+    }
+    
+    .habilidades .contenido-habilidades .Habilidades .card{
+        width: 160px;
+        height: 190px;
+        margin: 30px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 20px;
+    }
+    
+    .habilidades .contenido-habilidades .Habilidades .card i{
+        font-size: 90px;
+        margin-bottom: 20px;
+    }
+    
+    .habilidades .contenido-habilidades span{
+        font-size: 25px;
+        padding: 6px 0;
+    }
+}
+
+@media (min-width:1024px){
+    .habilidades .contenido-habilidades h1{
+        font-size: 34px; 
+        margin-top: -20px;  
+    }
+    
+    .habilidades .contenido-habilidades .Habilidades .card{
+        width: 190px;
+        height: 225px;
+        margin-left: 45px;
+        margin-right: 45px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .habilidades .contenido-habilidades .Habilidades .card i{
+        font-size: 80px;
+    }
+    
+    .habilidades .contenido-habilidades span{
+        font-size: 26px;
+        padding: 5px 0;
+    }
+}
