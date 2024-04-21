@@ -1,9 +1,6 @@
 .proyectos{
     background-color: #E3CFCC;
-    height: 950px;
-    padding: 0px -65px;
-    place-content: center;
-    margin: 0 auto;
+    height: 920px;
     overflow: hidden;
     padding: 80px 0;
 }
@@ -23,14 +20,13 @@
     color: #63413C;
     text-align: center;
     margin-top: -45px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 .proyectos .galeria{
     display: block;
+    display: flex;
     justify-content: center;
-    align-items: center;
-    margin-left: 70px;
 }
 
 .proyectos .galeria .proyecto{
@@ -38,7 +34,6 @@
     text-align: center;
     align-items: center;
     position: absolute;
-    height: fit-content;
     cursor: pointer;
     margin-top: 30px;
     box-sizing: border-box;
@@ -51,7 +46,6 @@
     width: 210px;
     height: 125px;
     justify-content: center;
-    text-align: center;
 }
 
 .proyectos .galeria .proyecto .overlay{
@@ -88,12 +82,11 @@
     .proyectos{
         height: 1650px;
         justify-content: center;
-        place-content: center;
     }
     
     .proyectos h1{
         font-size: 32px;
-        margin-top: -45px;
+        margin-top: -25px;
         margin-bottom: 25px;
     }
     
@@ -122,7 +115,7 @@
 @media (min-width:1024px){
     .proyectos h1{
         font-size: 34px;
-        margin-top: -45px;
+        margin-top: -15px;
         margin-bottom: 25px;
     }
     
